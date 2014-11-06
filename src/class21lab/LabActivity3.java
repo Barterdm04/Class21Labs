@@ -16,10 +16,10 @@ import java.util.List;
 public class LabActivity3 {
     public static void main(String[] args) {
         List<Employee> employeeList = new ArrayList<>();
-        Employee emp1 = new Employee("Barter", "Dylan", "123-45-678");
-        Employee emp2 = new Employee("Johnson", "Phil", "123-45-678");
-        Employee emp3 = new Employee("Ferguson", "Albert", "111-22-333");
-        Employee emp4 = new Employee("Fallon", "James", "888-00-999");
+        Employee emp1 = new Employee("Barter", "Dylan", "123-45-6789");
+        Employee emp2 = new Employee("Johnson", "Phil", "123-45-6789");
+        Employee emp3 = new Employee("Ferguson", "Albert", "111-22-3333");
+        Employee emp4 = new Employee("Fallon", "James", "888-00-9999");
         
         employeeList.add(emp1);
         employeeList.add(emp2);
