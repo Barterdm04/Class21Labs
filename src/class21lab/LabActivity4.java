@@ -43,7 +43,7 @@ public class LabActivity4 {
         for(Employee emp : employeeList){
             System.out.println(emp);
         }
-        
+        System.out.println("The updated size of the employee list is: " + employeeList.size());
         employeeList.remove(2);      
         System.out.println("Removed index 2:");
   
