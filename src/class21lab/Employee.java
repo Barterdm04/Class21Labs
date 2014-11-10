@@ -39,10 +39,7 @@ public class Employee {
     public String toString() {
         return "Employee {" + "Last Name = " + lastName + ", First Name = " + firstName + ", SSN = " + ssn + '}';
     }
-    
-    
-    
-    
+
     public String getSsn() {
         return ssn;
     }

@@ -34,10 +34,10 @@ public class LabActivity5 {
         
         //I will use the employee SSN as the key for the map because it should be unique to every employee even though in this 
         //example we are giving two employees the same SSN.  A map's key needs to be unique
-        employeeMap.put("123-45-6789", emp1);
-        employeeMap.put("123-45-6789", emp2);
-        employeeMap.put("111-22-3333", emp3);
-        employeeMap.put("888-00-9999", emp4);
+        employeeMap.put(emp1.getSsn(), emp1);
+        employeeMap.put(emp2.getSsn(), emp2);
+        employeeMap.put(emp3.getSsn(), emp3);
+        employeeMap.put(emp4.getSsn(), emp4);
         
         //I will retrieve individual items by calling them by their SSN, which i used for the key as demonstrated below
         Employee choiceEmployee = employeeMap.get("111-22-3333");
