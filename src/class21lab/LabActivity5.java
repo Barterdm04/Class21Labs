@@ -54,15 +54,15 @@ public class LabActivity5 {
         Set<String> empMapKeySet = employeeMap.keySet();
         //Loop through the map with the keys from the set
         
-        for(String ssn : empMapKeySet) {
-            System.out.println("Key: " + ssn + "  " + employeeMap.get(ssn));
+        for(String key : empMapKeySet) {
+            System.out.println("Key: " + key + "  " + employeeMap.get(key));
         }
         System.out.println("Demonstrating a loop that displays all the values:");
         //Create a collection to store all the map's values:
         Collection<Employee> empMapValueCollection = employeeMap.values();
         //Loop through the collection to display the values:
-        for(Employee emp : empMapValueCollection){
-            System.out.println(emp);
+        for(Employee value : empMapValueCollection){
+            System.out.println(value);
         }
         
         
